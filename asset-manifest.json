@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SimpleCode/static/css/main.31d6cfe0.css",
+    "main.js": "/SimpleCode/static/js/main.ea3c802b.js",
+    "static/js/787.719ec76d.chunk.js": "/SimpleCode/static/js/787.719ec76d.chunk.js",
+    "index.html": "/SimpleCode/index.html",
+    "main.ea3c802b.js.map": "/SimpleCode/static/js/main.ea3c802b.js.map",
+    "787.719ec76d.chunk.js.map": "/SimpleCode/static/js/787.719ec76d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.ea3c802b.js"
+  ]
+}
