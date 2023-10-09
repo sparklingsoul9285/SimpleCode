@@ -5,14 +5,14 @@
 import Alert from './components/Alert';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import About from './components/About';
+// import About from './components/About';
 import React, {useState} from 'react';
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom';
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from 'react-router-dom';
 
 function App() {
   // function for dark/light mode
@@ -53,22 +53,23 @@ function App() {
     <>
     
       {/* <Navbar title="SimpleCode" aboutText="About Us" contactText="Contact"/> */}
-      <Router>
+      {/* <Router> */}
       <Navbar title="SimpleCode" contactText="Contact" mode={mode} toggleMode = {toggleMode} />
       <Alert alert={alert}/>
       <div className="container">
-        <Routes>
+        {/* <Routes> */}
 
           {/* react use partial matching that's why
           /users --> component 1
           /users/home --> component 2 */}
 
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Enter the text to Analyze below" mode={mode}/>}>
+          {/* <Route exact path="/about" element={<About />}></Route> */}
+          {/* <Route exact path="/" element={}>
           </Route>
-        </Routes>
+        </Routes> */}
+        <TextForm showAlert={showAlert} heading="Enter the text to Analyze below" mode={mode}/>
       </div>
-      </Router>    
+      {/* </Router>     */}
     </>
   );
 }
